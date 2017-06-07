@@ -3,12 +3,12 @@
  */
 import React, {Component} from 'react';
 import Wrapper from './wrapper.js';
-import ArticleList from './articleList.js';
+import ArticleAdd from './articleAdd.js';
 export default class Home extends Component{
     render() {
         return (
             <Wrapper>
-                <ArticleList/>
+                <ArticleAdd/>
             </Wrapper>
         )
     }
